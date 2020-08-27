@@ -11,7 +11,7 @@ function judder()
     % let's use the model to predict the judder of a 24 FPS, 2.5 nit scene
     % with a pan of 7 seconds!
     F = 24; % FPS
-    L = 100; % nits
+    L = 2.5; % nits
     S = 7; % second pan
     % remember to convert the variables as described in Appendix A3
     F_ = 1/F;
