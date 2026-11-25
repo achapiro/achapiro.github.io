@@ -122,7 +122,7 @@
 		  <a href="Cha26/Cha26.mp4">video</a>
                 </p>
                 <p>
-                  Optical see-through AR displays suffer from very low contrast because bright ambient light washes out the virtual image, and cranking up display luminance costs power. AROMA is a tone mapper built for that problem — in our study it looked like a 45-59% luminance boost, and it runs at 250 FPS on Meta Ray-Ban Display glasses.
+                  Optical see-through AR displays suffer from very low contrast because bright ambient light washes out the virtual image. Increasing display luminance to raise contrast costs display power and is not always feasible. AROMA is a real-time AR-specific tone mapper which accounts for perceptual effects, content statistics, display, and ambient to bring the perceived image as close as possible to the intended target. A subjective study shows AROMA provides a quality boost equivalent to raising display luminance by 45-59%, and it runs at 250 FPS on Meta Ray-Ban Display glasses.
 				</p>
               </td>
             </tr>
@@ -142,7 +142,7 @@
 		  <a href="Zha26/Zha26_supplementary.pdf">supplementary </a>
                 </p>
                 <p>
-                  Ambient light shrinks a display's effective color gamut, so colors look worse in real rooms than on the spec sheet. We measured how gamut, dynamic range, and ambient light jointly shape perceived color quality on flat-panel and AR displays, and built a model — plus three enhancement algorithms — that predicts it and compensates for it.
+                  Ambient light shrinks a display's effective color gamut. This typically leads to desaturated colors. We measured how gamut, dynamic range, and ambient light jointly shape perceived color quality on flat-panel and AR displays, and built a model — and tested enhancement algorithms — that predict this effect and compensate for it.
 				</p>
               </td>
             </tr>
@@ -165,7 +165,7 @@
 		  <a href="Che26d/Che26d_fast_forward.mp4">fast forward</a>
                 </p>
                 <p>
-                  Holograms suffer from speckle, and existing loss functions don't know what the eye actually sees. HoOPOE is a perceptual loss for computer-generated holography that hides speckles from human vision — in our user study, people preferred it 68% of the time over the next best objective.
+                  Holograms suffer from speckle, and previously proposed loss functions did not fully model the relevant perceptual effects. HoOPOE is a perceptual loss for computer-generated holography that intends to hide speckle from human vision — in our user study, people preferred it 68% of the time over the next best objective.
 				</p>
               </td>
             </tr>
